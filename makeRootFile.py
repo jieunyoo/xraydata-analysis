@@ -57,7 +57,8 @@ hGainCurves = {}
 
 for i in range(NROW):
   for j in range(NCOL):
-    histname = "Station: %d - Plaq: %d - ROC: %d - r: %d - c: %d" % (STATIONID,PLAQID,ROCID,i,j)
+    #histname = "Station: %d - Plaq: %d - ROC: %d - r: %d - c: %d" % (STATIONID,PLAQID,ROCID,i,j)
+    histname = "r:%d-c:%d" % (i,j)
     hGainCurves[(i,j)] = TH1D(histname, histname, nBins, xMin, xMax)
     hGainCurves[(i,j)].SetXTitle("charge (electrons)")
     hGainCurves[(i,j)].SetYTitle("ToT")
