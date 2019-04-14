@@ -6,8 +6,10 @@ from ROOT import gROOT, gStyle, TGaxis, TFile, TH1, TH1D, TH2D, TGraph, TF1, TCa
 #############
 
 # Fixed
-vcalMin           = 0
-vcalMax           = 2020
+#vcalMin           = 0
+#vcalMax           = 2020
+vcalMin           = 300
+vcalMax           = 1000
 vcalStep          = 20
 NROW              = 192
 NCOL              = 400
