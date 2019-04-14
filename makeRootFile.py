@@ -18,7 +18,8 @@ PLAQID            = 0
 ROCID             = 0  
 
 # Set by user
-chipName          = "MJ13"
+#chipName          = "MJ13"
+chipName          = "JohnDoe"
 chipDetails       = "2500e_irrad"
 
 # Yarr VCal - charge calibration
